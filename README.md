@@ -1,4 +1,4 @@
-![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/efd5e503-cfad-45cf-b2b9-39b534372c60)# intent_mobile_V2
+# intent_mobile_V2
 
   Nama    : Ferdyana Eka Prasetya</br>
   NIM     : 312210121</br>
