@@ -18,14 +18,14 @@ dengan tampilan sebagai berikut :<br>
 > Klik kanan>new>drawable resource file>isi nama file & root>ok
 *Didalam backgroundicon.xml kita tambahkan code berikut:*
 
-``
+```
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
   <solid android:color="@color/colorPrimaryDark"/>
   <corners android:radius="80dp"/>
   <size android:width="80dp" android:height="80dp"/>
 </shape>
-``
+```
 
 - Selanjutnya untuk icon, kali ini kita bisa pakai icon yang sudah disediakan oleh android studio biar lebih mudah, Caranya adalah dengan menambah vector asset pada drawable file. kalian juga bisa menggunakan icon yang kalian punya.
 > Klik kanan>new>vector asset>clip art>pilih icon yang ingin digunakan>next>finish
@@ -34,8 +34,7 @@ dengan tampilan sebagai berikut :<br>
 *Oke, jika sudah selesai melakukan semua hal diatas, selanjutnya kita akan edit 'acitivy_main.xml' nya, untuk mengganti tombol yang awal nya button menjadi image button, yang bertujuan untuk merubah dari tombol teks menjadi icon. Pertama kita menghapus terlebih dulu semua button kecuali imageview untuk background, namun disarankan salin code button sebelumnya karena akan dipakai lagi nantinya.*
 
 - Silahkan masukkan source code di'acitivy_main.xml' sebagai berikut:
-
-  ``
+```
     <ImageView
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -124,5 +123,7 @@ dengan tampilan sebagai berikut :<br>
                 tools:ignore="UsingOnClickInXml,SpeakableTextPresentCheck" />
         </LinearLayout>
     </LinearLayout>
-    ``
-    -  <linear layout dengan orientasi vertical untuk dasar dari penempatan tombol.
+```
+- **PENJELASAN**
+- Penambahan '<linear layout'  dengan orientasi vertical untuk dasar dari penempatan tombol.
+  ~ Lalu, didalam LinearLayout vertical ini. Kita tambahkan lagi LinearLayout, tapi dengan orentasi horizontal agar tombol berjejer kesamping.
