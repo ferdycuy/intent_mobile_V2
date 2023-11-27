@@ -14,9 +14,9 @@ dengan tampilan sebagai berikut :<br>
   ![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/7ccd29a0-66da-4c6f-b746-c099c5278e6d)
 
   ## Langkah-langkah yang harus dilakukan
-- Pertama, kita buat dulu sebuah drawable resource file. Kita beri nama file nya 'backgroundicon.xml' dengan root elementnya adalah shape.
+- Pertama, kita buat dulu sebuah drawable resource file. Kita beri nama file nya **backgroundicon.xml** dengan root elementnya adalah shape.
 > Klik kanan>new>drawable resource file>isi nama file & root>ok
-*Didalam backgroundicon.xml kita tambahkan code berikut:*
+*Didalam **backgroundicon.xml** kita tambahkan code berikut:*
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -31,9 +31,9 @@ dengan tampilan sebagai berikut :<br>
 > Klik kanan>new>vector asset>clip art>pilih icon yang ingin digunakan>next>finish
 **NOTE**: Sesuaikan nama dan ukuran dengan kebutuhan kalian
 
-*Oke, jika sudah selesai melakukan semua hal diatas, selanjutnya kita akan edit 'acitivy_main.xml' nya, untuk mengganti tombol yang awal nya button menjadi image button, yang bertujuan untuk merubah dari tombol teks menjadi icon. Pertama kita menghapus terlebih dulu semua button kecuali imageview untuk background, namun disarankan salin code button sebelumnya karena akan dipakai lagi nantinya.*
+*Oke, jika sudah selesai melakukan semua hal diatas, selanjutnya kita akan edit **acitivy_main.xml** nya, untuk mengganti tombol yang awal nya button menjadi image button, yang bertujuan untuk merubah dari tombol teks menjadi icon. Pertama kita menghapus terlebih dulu semua button kecuali imageview untuk background, namun disarankan salin code button sebelumnya karena akan dipakai lagi nantinya.*
 
-- Silahkan masukkan source code di'acitivy_main.xml' sebagai berikut:
+- Silahkan masukkan source code di**acitivy_main.xml** sebagai berikut:
 ```
     <ImageView
         android:id="@+id/background"
@@ -126,14 +126,14 @@ dengan tampilan sebagai berikut :<br>
 ```
 > **NOTE**: disini saya menambahkan button baru yaitu showmap<br>
 nama file icon disesuaikan dengan nama icon yang kalian buat
-- **PENJELASAN**
-  ~ Penambahan '<linear layout'  dengan orientasi vertical untuk dasar dari penempatan tombol.<br>
+- **PENJELASAN**<br>
+  ~ Penambahan **<linear layout**  dengan orientasi vertical untuk dasar dari penempatan tombol.<br>
   ~ Lalu, didalam LinearLayout vertical ini. Kita tambahkan lagi LinearLayout, tapi dengan orentasi horizontal agar tombol berjejer kesamping.<br>
 
 - Berikut tampilan desainnya:
 ![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/fe7c0fbe-2f63-46ff-ad2c-93db6716ffc1)
 
-- Oh iya, karena tadi membuat button baru yaitu tombol untuk membuka maps, maka disini Saya tambahkan lagi code implicit intent untuk membuka mapsnya. Kita akan sedikit menambahkan code di'MainActivity.java' sebagai berikut:
+- Oh iya, karena tadi membuat button baru yaitu tombol untuk membuka maps, maka disini Saya tambahkan lagi code implicit intent untuk membuka mapsnya. Kita akan sedikit menambahkan code di**MainActivity.java** sebagai berikut:
 ```
 ImageButton btnshowMap = findViewById(R.id.btnshowMap);
       btnshowMap.setOnClickListener(v -> {
@@ -146,5 +146,9 @@ ImageButton btnshowMap = findViewById(R.id.btnshowMap);
 
 ## Berikut Hasil RUN nya
 
-https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/7c547e41-7a4f-454b-b1fe-0ce0b9370426
+
+
+https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/cefea083-e7e3-4da8-8f5d-ecd6b992d092
+
+
 
