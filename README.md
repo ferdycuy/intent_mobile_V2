@@ -28,12 +28,12 @@ dengan tampilan sebagai berikut :<br>
 ```
 
 - Selanjutnya untuk icon, kali ini kita bisa pakai icon yang sudah disediakan oleh android studio biar lebih mudah, Caranya adalah dengan menambah vector asset pada drawable file. kalian juga bisa menggunakan icon yang kalian punya.
-> Klik kanan>new>vector asset>clip art>pilih icon yang ingin digunakan>next>finish
+> Klik kanan>new>vector asset>clip art>pilih icon yang ingin digunakan>next>finish<br>
 **NOTE**: Sesuaikan nama dan ukuran dengan kebutuhan kalian
 
 *Oke, jika sudah selesai melakukan semua hal diatas, selanjutnya kita akan edit **acitivy_main.xml** nya, untuk mengganti tombol yang awal nya button menjadi image button, yang bertujuan untuk merubah dari tombol teks menjadi icon. Pertama kita menghapus terlebih dulu semua button kecuali imageview untuk background, namun disarankan salin code button sebelumnya karena akan dipakai lagi nantinya.*
 
-- Silahkan masukkan source code di**acitivy_main.xml** sebagai berikut:
+- Silahkan masukkan source code di **acitivy_main.xml** sebagai berikut:
 ```
     <ImageView
         android:id="@+id/background"
