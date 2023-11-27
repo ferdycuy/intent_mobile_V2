@@ -1,4 +1,4 @@
-# intent_mobile_V2
+![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/efd5e503-cfad-45cf-b2b9-39b534372c60)# intent_mobile_V2
 
   Nama    : Ferdyana Eka Prasetya</br>
   NIM     : 312210121</br>
@@ -124,6 +124,27 @@ dengan tampilan sebagai berikut :<br>
         </LinearLayout>
     </LinearLayout>
 ```
+> **NOTE**: disini saya menambahkan button baru yaitu showmap<br>
+nama file icon disesuaikan dengan nama icon yang kalian buat
 - **PENJELASAN**
-- Penambahan '<linear layout'  dengan orientasi vertical untuk dasar dari penempatan tombol.
-  ~ Lalu, didalam LinearLayout vertical ini. Kita tambahkan lagi LinearLayout, tapi dengan orentasi horizontal agar tombol berjejer kesamping.
+  ~ Penambahan '<linear layout'  dengan orientasi vertical untuk dasar dari penempatan tombol.<br>
+  ~ Lalu, didalam LinearLayout vertical ini. Kita tambahkan lagi LinearLayout, tapi dengan orentasi horizontal agar tombol berjejer kesamping.<br>
+
+- Berikut tampilan desainnya:
+![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/fe7c0fbe-2f63-46ff-ad2c-93db6716ffc1)
+
+- Oh iya, karena tadi membuat button baru yaitu tombol untuk membuka maps, maka disini Saya tambahkan lagi code implicit intent untuk membuka mapsnya. Kita akan sedikit menambahkan code di'MainActivity.java' sebagai berikut:
+```
+ImageButton btnshowMap = findViewById(R.id.btnshowMap);
+      btnshowMap.setOnClickListener(v -> {
+          Intent map = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:-6.324307,107.169273"));
+          map.setPackage("com.google.android.apps.maps");
+          startActivity(map);
+      });
+```
+- DONE
+
+## Berikut Hasil RUN nya
+
+https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/7c547e41-7a4f-454b-b1fe-0ce0b9370426
+
