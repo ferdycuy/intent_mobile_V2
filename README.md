@@ -15,7 +15,7 @@ dengan tampilan sebagai berikut :<br>
 
   ## Langkah-langkah yang harus dilakukan
 - Pertama, kita buat dulu sebuah drawable resource file. Kita beri nama file nya **backgroundicon.xml** dengan root elementnya adalah shape.
-> Klik kanan>new>drawable resource file>isi nama file & root>ok
+> Klik kanan>new>drawable resource file>isi nama file & root>ok<br>
 *Didalam **backgroundicon.xml** kita tambahkan code berikut:*
 
 ```
