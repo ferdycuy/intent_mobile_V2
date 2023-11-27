@@ -131,6 +131,7 @@ nama file icon disesuaikan dengan nama icon yang kalian buat
   ~ Lalu, didalam LinearLayout vertical ini. Kita tambahkan lagi LinearLayout, tapi dengan orentasi horizontal agar tombol berjejer kesamping.<br>
 
 - Berikut tampilan desainnya:
+  
 ![image](https://github.com/ferdycuy/intent_mobile_V2/assets/115714443/fe7c0fbe-2f63-46ff-ad2c-93db6716ffc1)
 
 - Oh iya, karena tadi membuat button baru yaitu tombol untuk membuka maps, maka disini Saya tambahkan lagi code implicit intent untuk membuka mapsnya. Kita akan sedikit menambahkan code di**MainActivity.java** sebagai berikut:
